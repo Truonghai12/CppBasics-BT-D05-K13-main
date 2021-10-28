@@ -1,0 +1,21 @@
+# xác định  _USE_MATH_DEFINES
+# bao gồm  < cmath >
+# include  < iostream >
+# bao gồm  < iomanip >
+sử dụng  không gian tên  std ;
+
+
+int  main () {
+    phao a;
+    phao b;
+
+    cout << " Tìm x: ax + b = 0 bằng cách nhập a, b " << endl;
+    cout << " Nhập a " ;
+    cin >> a;
+    cout << " Nhập b " ;
+    cin >> b;
+    float x = -b / a;
+    cout << fixed << setpre precision ( 20 ) << x;
+
+    trả về  0 ;
+}
