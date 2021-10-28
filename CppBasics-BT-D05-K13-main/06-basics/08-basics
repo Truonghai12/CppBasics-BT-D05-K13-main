@@ -1,0 +1,42 @@
+#include <iostream>
+sử dụng không gian tên std;
+
+int main () {
+	int x;
+	cout << "Nhập một số lớn hơn 9" << endl;
+	cin >> x;
+	nếu (x <10) {
+		cout << "Lỗi";
+	}
+	khác nếu (x> 99) {
+		cout << "Lỗi";
+	}
+	khác nếu (x> = 10) {
+		chuyển đổi (x / 10) {
+		case 1: cout << "Muoi"; nghỉ;
+		case 2: cout << "Hai muoi"; nghỉ;
+		case 3: cout << "Ba muoi"; nghỉ;
+		case 4: cout << "Bon muoi"; nghỉ;
+		case 5: cout << "Nam muoi"; nghỉ;
+		case 6: cout << "Sau muoi"; nghỉ;
+		case 7: cout << "Bay muoi"; nghỉ;
+		case 8: cout << "Tam muoi"; nghỉ;
+		case 9: cout << "Chin muoi"; nghỉ;
+		}
+		chuyển đổi (x% 10) {
+		case 1: cout << "mot"; nghỉ;
+		case 2: cout << "hai"; nghỉ;
+		case 3: cout << "ba"; nghỉ;
+		case 4: cout << "bon"; nghỉ;
+		case 5: cout << "nam"; nghỉ;
+		case 6: cout << "sau"; nghỉ;
+		case 7: cout << "bay"; nghỉ;
+		case 8: cout << "tam"; nghỉ;
+		case 9: cout << "chin"; nghỉ;
+		}
+
+	}
+
+
+	trả về 0;
+}
