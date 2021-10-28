@@ -1,0 +1,47 @@
+# include < iostream >
+# bao gồm < cmath >
+sử dụng  không gian tên  std ;
+
+int  main () {
+	int x; // thời gian bắt đầu
+	int y; // thời gian kết thúc
+	int a = 30000 ;
+	int b; // phí
+
+	cout << " Chúng tôi mở cửa từ 8 giờ sáng đến 24 giờ tối hàng ngày " << endl;
+	cout << " Nhập thời gian bạn bắt đầu: " ;
+	cin >> x;
+	cout << " Nhập thời gian bạn hoàn thành lúc " ;
+	cin >> y;
+
+	int z = y - x;
+
+	if (x < 8 && y> 24 ) {
+		cout << " Lỗi " ;
+	}
+	khác  nếu (y <= 17 ) {
+		nếu (z> 3 ) {
+			b = ((a - một * 30 / 100 ) * (z - 3 ) + 3 * a) - (((a - một * 30 / 100 ) * (z - 3 ) + 3 * a) * 10 / 100 );
+			cout << " Bạn phải trả " << b << " dong " << endl;
+		}
+		khác {
+			b = (z * a) - (z * a * 10 / 100 );
+			cout << " Bạn phải trả tiền " << b << " dong " << endl;
+		}
+
+	}
+	khác  nếu (y> 17 ) {
+		nếu (z> 3 ) {
+			b = (a - một * 30 / 100 ) * (z - 3 ) + 3 * a;
+			cout << " Bạn phải trả " << b << " dong " << endl;
+		}
+		khác {
+			b = (z * a);
+			cout << " Bạn phải trả tiền " << b << " dong " << endl;
+		}
+
+	}
+
+
+	trả về  0 ;
+}
